@@ -21,19 +21,19 @@ const questions=[
     categorie: "Instructions conditionnelles",
     question: "Comment écrire un test <em>si</em> ?",
     reponse: "On utilise le mot-clé <em>if</em>.",
-    exemple: 'if note>=10 :<br/>&nbsp;&nbsp;print("bravo !")',
+    exemple: 'if note >= 10 :<br/>&nbsp;&nbsp;print("bravo !")',
   },
   {
     categorie: "Instructions conditionnelles",
     question: "Comment écrire un test <em>si ... sinon</em> ?",
     reponse: "On utilise les mot-clés <em>if</em> et <em>else</em>.",
-    exemple: 'if note>=10 :<br/>&nbsp;&nbsp;print("bravo !")<br/>else :<br/>&nbsp;&nbsp;print("dommage...")',
+    exemple: 'if note >= 10 :<br/>&nbsp;&nbsp;print("bravo !")<br/>else :<br/>&nbsp;&nbsp;print("dommage...")',
   },
   {
     categorie: "Instructions conditionnelles",
     question: "Comment écrire un test <em>si ... sinon si ... sinon</em> ?",
     reponse: "On utilise les mot-clés <em>if</em>, <em>elif</em> et <em>else</em>.",
-    exemple: 'if note>=15 :<br/>&nbsp;&nbsp;print("excellent !")<br/>elif note>=10 :<br/>&nbsp;&nbsp;print("bravo !")<br/>else :<br/>&nbsp;&nbsp;print("dommage...")',
+    exemple: 'if note >= 15 :<br/>&nbsp;&nbsp;print("excellent !")<br/>elif note >= 10 :<br/>&nbsp;&nbsp;print("bravo !")<br/>else :<br/>&nbsp;&nbsp;print("dommage...")',
   },
   {
     categorie: "Boucles",
