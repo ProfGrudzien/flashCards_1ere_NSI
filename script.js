@@ -13,7 +13,7 @@ const questions=[
   },
   {
     categorie: "Entrées, Sorties et Variables",
-    question: "Comment demander une valeur à l'utilisateur ?",
+    question: "Comment demander une valeur à l'utilisateur&nbsp;?",
     reponse: "On utilise le mot-clé <em>input</em>.",
     exemple: 'nom = input("Votre nom : ")',
   },
