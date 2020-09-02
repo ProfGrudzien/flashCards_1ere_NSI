@@ -28,12 +28,14 @@ function showCards(categorie) {
 }
 
 function handleClick(event) {
-    Array.from(document.querySelectorAll(".menu"))
-         .forEach(div => div.className = "menu")
-    event.target.className = "menu selected"
-    showCards(event.target.textContent)
+    if (event.target.className == "menu") {
+        Array.from(document.querySelectorAll(".menu"))
+             .forEach(div => div.className = "menu")
+        event.target.className = "menu selected"
+        showCards(event.target.textContent)
+    }
 }
 
 showCards("Toutes les cartes")
 document.getElementById("toutes").className = "menu selected"
-document.querySelector("body").addEventListener("click", handleClick)
+document.querySelector("menu-container").addEventListener("click", handleClick)
