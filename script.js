@@ -38,4 +38,4 @@ function handleClick(event) {
 
 showCards("Toutes les cartes")
 document.getElementById("toutes").className = "menu selected"
-document.querySelector("menu-container").addEventListener("click", handleClick)
+document.querySelector(".menu-container").addEventListener("click", handleClick)
