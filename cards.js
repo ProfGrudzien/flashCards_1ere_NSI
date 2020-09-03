@@ -33,7 +33,7 @@ const questions=[
     categorie: "Entrées, Sorties et Variables",
     question: "Comment convertir un texte en nombre entier&nbsp;?",
     reponse: "On utilise le mot-clé <em>int</em>.",
-    exemple: 'a = "1.2"<br/>int(a)',
+    exemple: 'a = int("1.2")',
   },
   {
     categorie: "Instructions conditionnelles",
