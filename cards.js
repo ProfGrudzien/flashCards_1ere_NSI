@@ -13,6 +13,18 @@ const questions=[
   },
   {
     categorie: "Entrées, Sorties et Variables",
+    question: "Comment afficher un nombre ou un texte ?",
+    reponse: "On utilise le mot-clé <em>print</em>.",
+    exemple : "print(12)",
+  },
+  {
+    categorie: "Entrées, Sorties et Variables",
+    question: "Comment afficher un nombre et un texte ?",
+    reponse: "On utilise le mot-clé <em>print</em>.",
+    exemple : "print(12, pomme)",
+  },
+  {
+    categorie: "Entrées, Sorties et Variables",
     question: "Comment demander une valeur à l'utilisateur&nbsp;?",
     reponse: "On utilise le mot-clé <em>input</em>.",
     exemple: 'nom = input("Votre nom : ")',
