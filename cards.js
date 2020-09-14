@@ -83,6 +83,12 @@ const questions=[
     reponse: "On utilise une boucle <em>pour</em> et le mot-clé <em>range</em>.",
     exemple: 'for i in range(10) :<br/>&nbsp;&nbsp;print("coucou")',
   },
+  {
+    categorie: "Boucles",
+    question: "Comment écrire une boucle tant que ?",
+    reponse: "On utilise le mot-clé <em>while</em>. On n'oublie pas d'initialiser puis d'incrémenter la variable utilisée dans la condition.",
+    exemple: 'i = 0<br/>while i**2 < 125 :<br/>&nbsp;&nbsp;i=i+1',
+  },
 ]
 
 const couleurs = {
