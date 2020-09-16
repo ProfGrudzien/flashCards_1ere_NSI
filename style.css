@@ -44,23 +44,48 @@
   transform: rotateY(180deg);
 } 
 
+.gris .flip-card-front, .vert .flip-card-back {
+  background-color: #696969;
+  color: white;
+}
+
 .vert .flip-card-front, .vert .flip-card-back {
-  background-color: #006400;
+  background-color: #3cb371;
+  color: white;
+}
+
+.marron .flip-card-front, .vert .flip-card-back {
+  background-color: #a0522d;
   color: white;
 }
 
 .rouge .flip-card-front, .rouge .flip-card-back {
-  background-color: #640000;
+  background-color: #ff6347;
   color: white;
 }
 
 .bleu .flip-card-front, .bleu .flip-card-back {
-  background-color: #000064;
+  background-color: #1e90ff;
   color: white;
 }
 
-.blanc .flip-card-front, .blanc .flip-card-back {
-  background-color: #fff;
+.jaune .flip-card-front, .blanc .flip-card-back {
+  background-color: #ffff00;
+  color: black;
+}
+
+.orange .flip-card-front, .vert .flip-card-back {
+  background-color: #ffa500;
+  color: white;
+}
+
+.rose .flip-card-front, .vert .flip-card-back {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.violet .flip-card-front, .vert .flip-card-back {
+  background-color: #9400d3;
   color: white;
 }
 
