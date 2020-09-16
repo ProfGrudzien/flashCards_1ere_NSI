@@ -89,15 +89,27 @@ const questions=[
     reponse: "On utilise le mot-clé <em>while</em>. On n'oublie pas d'initialiser puis d'incrémenter la variable utilisée dans la condition.",
     exemple: 'i = 0<br/>while i**2 < 125 :<br/>&nbsp;&nbsp;i=i+1',
   },
+  {
+    categorie: "Chaînes de caractères",
+    question: "Comment déterminer le nombre de caractère d'une chaîne de caractères ?",
+    reponse: "On utilise la fonction <em>len</em>.",
+    exemple: 'txt = "Bonjour à tous !"<br/>print(len(txt))',
+  },
+  {
+    categorie: "Chaînes de caractères",
+    question: "Comment accéder à un caratère d'une chaîne de caractère par sa position ?",
+    reponse: "On utilise des crochets encadrant la position",
+    exemple: 'txt = "Bonjour à tous !"<br/>print(txt[0])<br/>print(txt[6])',
+  },
 ]
 
 const couleurs = {
   "Entrées, Sorties et Variables" : "vert",
   "Instructions conditionnelles" : "rouge",
   "Boucles" : "bleu",
-  "Chaines de caractères" : "blanc",
-  "Listes et tuples" : "blanc",
-  "Dictionnaires" : "blanc",
-  "Fonctions" : "blanc",
-  "Fichiers" : "blanc",
+  "Chaînes de caractères" : "marron",
+  "Listes et tuples" : "orange",
+  "Dictionnaires" : "rose",
+  "Fonctions" : "violet",
+  "Fichiers" : "gris",
 }
