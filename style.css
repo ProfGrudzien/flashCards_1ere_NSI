@@ -44,7 +44,7 @@
   transform: rotateY(180deg);
 } 
 
-.gris .flip-card-front, .vert .flip-card-back {
+.gris .flip-card-front, .gris .flip-card-back {
   background-color: #696969;
   color: white;
 }
@@ -54,7 +54,7 @@
   color: white;
 }
 
-.marron .flip-card-front, .vert .flip-card-back {
+.marron .flip-card-front, .marron .flip-card-back {
   background-color: #a0522d;
   color: white;
 }
@@ -69,22 +69,22 @@
   color: white;
 }
 
-.jaune .flip-card-front, .blanc .flip-card-back {
+.jaune .flip-card-front, .jaune .flip-card-back {
   background-color: #ffff00;
   color: black;
 }
 
-.orange .flip-card-front, .vert .flip-card-back {
+.orange .flip-card-front, .orange .flip-card-back {
   background-color: #ffa500;
   color: white;
 }
 
-.rose .flip-card-front, .vert .flip-card-back {
+.rose .flip-card-front, .rose .flip-card-back {
   background-color: #ff69b4;
   color: white;
 }
 
-.violet .flip-card-front, .vert .flip-card-back {
+.violet .flip-card-front, .violet .flip-card-back {
   background-color: #9400d3;
   color: white;
 }
