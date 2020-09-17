@@ -86,18 +86,18 @@ const questions=[
   {
     categorie: "Boucles",
     question: "Comment écrire une boucle tant que ?",
-    reponse: "On utilise le mot-clé <em>while</em>. On n'oublie pas d'initialiser puis d'incrémenter la variable utilisée dans la condition.",
+    reponse: "On utilise le mot-clé <em>while</em>.",
     exemple: 'i = 0<br/>while i**2 < 125 :<br/>&nbsp;&nbsp;i=i+1',
   },
   {
     categorie: "Chaînes de caractères",
-    question: "Comment déterminer le nombre de caractère d'une chaîne de caractères ?",
+    question: "Comment déterminer le nombre de caractères d'une chaîne de caractères ?",
     reponse: "On utilise la fonction <em>len</em>.",
     exemple: 'txt = "Bonjour à tous !"<br/>print(len(txt))',
   },
   {
     categorie: "Chaînes de caractères",
-    question: "Comment accéder à un caratère d'une chaîne de caractère par sa position ?",
+    question: "Comment accéder à un caratère d'une chaîne de caractères par sa position ?",
     reponse: "On utilise des crochets encadrant la position",
     exemple: 'txt = "Bonjour à tous !"<br/>print(txt[0])<br/>print(txt[6])',
   },
